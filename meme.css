@@ -55,6 +55,7 @@ input {
     width: 300px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 40px;
     position: relative;
     text-align: center;
     /* why is this not cnetering the text inside of the .meme container */
@@ -72,15 +73,19 @@ input {
 }
 
 .txt-first {
-position: absolute; top: 10px;
+position: absolute; left: 50%;
 font-size: 25px;
 color: wheat;
 text-shadow: 5px 5px 8px black;
+transform: translate(-50%, 10%);
+text-align: center;
 }
 
 .txt-last {
-position: absolute; bottom: 10px;
+position: absolute; left: 50%;
 font-size: 25px;
 color: lightsalmon;
 text-shadow: 5px 5px 8px black;
+transform: translate(-50%, -110%);
+text-align: center;
 }
